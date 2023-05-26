@@ -1,0 +1,38 @@
+.ticket {
+    width: 220px;
+    background-color: #ffffff;
+    height: 100%;
+    padding: 20px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        &:nth-of-type(1) {
+            width: 60%;
+            margin-top: 10px;
+        }
+        &:nth-of-type(2) {
+            width: 30px;
+            margin-top: 10px;
+        }
+    }
+    h3 {
+        font-weight: 700;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    h4 {
+        color: #ffc226;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    span {
+        font-weight: 700;
+    }
+    p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}

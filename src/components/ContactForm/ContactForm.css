@@ -1,0 +1,85 @@
+.contact_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 450px;
+  background-color: #fde8b3;
+  border-radius: 20px;
+  position: relative;
+}
+.contact_form::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  border-radius: 30px;
+  right: -15px;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffca7b;
+}
+.contact_form__content {
+  padding: 15px;
+  background-color: #fff6d4;
+  border-radius: 20px;
+  background-image: url("../../images/Vector (10).png");
+  background-size: 100% 100%;
+  width: 95%;
+  height: 95%;
+}
+.contact_form__content p {
+  text-align: left;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.contact_form__content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.contact_form__content form button {
+  border: none;
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  position: relative;
+  background-image: url("../../images/Frame (7).png");
+  background-size: 100% 100%;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+.form-group input {
+  border: none;
+  outline: none;
+  box-shadow: inset -1px 3px 3px rgba(178, 91, 11, 0.5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif !important;
+}
+.form-group textarea {
+  border: none;
+  outline: none;
+  box-shadow: inset -1px 3px 3px rgba(178, 91, 11, 0.5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  font-family: "Montserrat", sans-serif !important;
+}/*# sourceMappingURL=ContactForm.css.map */

@@ -1,0 +1,95 @@
+.home {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.home__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 70px;
+  position: relative;
+}
+.home__content .group-person {
+  position: absolute;
+  right: 100px;
+  height: 300px;
+}
+.home__content .ballon1 {
+  position: absolute;
+  left: 50%;
+  width: 70px;
+}
+.home__content .ballon2 {
+  position: absolute;
+  left: 40%;
+  width: 100px;
+  top: 0;
+}
+.home__content .ballon3 {
+  position: absolute;
+  left: -5%;
+  width: 70px;
+  top: 100%;
+}
+.home__content .ballon4 {
+  position: absolute;
+  right: -8%;
+  width: 100px;
+  top: 150%;
+}
+.home__content .ballon5 {
+  position: absolute;
+  left: 40%;
+  width: 100px;
+  top: 500%;
+}
+.home__content .ballon6 {
+  position: absolute;
+  right: 0%;
+  width: 100px;
+  top: 450%;
+}
+.home__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home__logo img {
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home__logo h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.home__logo h2 img {
+  position: absolute;
+}
+.home__logo h2 img:nth-of-type(1) {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  top: -30px;
+}
+.home__logo h2 img:nth-of-type(2) {
+  width: 130px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  top: 20px;
+}
+.home .person {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  width: 200px;
+}/*# sourceMappingURL=HomePage.css.map */

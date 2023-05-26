@@ -1,0 +1,22 @@
+.ContactPage {
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+}
+.ContactPage .contact-person {
+  position: absolute;
+  bottom: 5;
+  left: 0;
+  width: 240px;
+}
+
+.title__contact {
+  position: absolute;
+  top: 100px;
+  width: 250px;
+}/*# sourceMappingURL=ContactPage.css.map */
